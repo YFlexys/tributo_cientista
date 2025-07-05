@@ -1,0 +1,92 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  line-height: 1.6;
+  padding: 20px;
+}
+
+#main {
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: white;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+#title {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+  color: #2c3e50;
+}
+
+#subtitle {
+  text-align: center;
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+  color: #555;
+}
+
+#img-div {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+#image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+#img-caption {
+  font-size: 0.9rem;
+  color: #666;
+  margin-top: 8px;
+}
+
+#tribute-info h2 {
+  margin-bottom: 15px;
+  color: #34495e;
+}
+
+#tribute-info ul {
+  list-style-type: disc;
+  padding-left: 20px;
+  margin-bottom: 30px;
+}
+
+#tribute-info li {
+  margin-bottom: 10px;
+}
+
+blockquote {
+  border-left: 4px solid #888;
+  padding-left: 15px;
+  font-style: italic;
+  color: #555;
+  margin-bottom: 30px;
+}
+
+#more-info {
+  text-align: center;
+  font-size: 1rem;
+  margin-top: 20px;
+}
+
+#tribute-link {
+  color: #2c3e50;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+#tribute-link:hover {
+  text-decoration: underline;
+}
